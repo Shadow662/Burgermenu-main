@@ -225,6 +225,7 @@ label{
 
 #check-menu:checked ~ .second{
 	top: 18px;
+	opacity: 0.6;
 }
 
 

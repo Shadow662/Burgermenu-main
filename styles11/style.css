@@ -4,8 +4,8 @@
 
 
 .photos{
-	margin-top: 10px;
-	height: 276px;
+	margin-top: 100px;
+	height: 279px;
 	display: flex;
 	justify-content: space-around;
 	z-index: 1;
@@ -13,7 +13,7 @@
 
 
 .Apple{
-	background-image: url(../photos/Apple.png);
+	background-image: url(../photos/Apple.png) !important;
 	height: 279px;
 	width: 462px;
 	float: left;
@@ -24,7 +24,7 @@
 
 
 .Tesla{
-	background-image: url(../photos/Tesla.png);
+	background-image: url(../photos/Tesla.png) !important;
 	height: 279px;
 	width: 462px;
 	float: left;
@@ -35,7 +35,7 @@
 
 
 .Ukrposhta{
-	background-image: url(../photos/Ukrposhta.png);
+	background-image: url(../photos/Ukrposhta.png) !important;
 	height: 279px;
 	width: 462px;
 	float: left;
@@ -103,7 +103,8 @@ opacity: 0.9;
 .photos{
 	flex-direction: column-reverse;
 	align-items: center;
-	margin-top: 329px;
+	margin-top: 400px;
+
 }
 
 
@@ -115,45 +116,6 @@ opacity: 0.9;
 .Apple{
 	margin-top: 40px;
 }
-}
-
-
-.p2{
-	margin-top: 10px;
-	text-align: center;
-	font-family: 'Arial';
-	font-size: 30px;
-}
-
-
-.p3line{
-	width: 99%;
-	background: #000;
-	height: 1px;
-	display: block;
-	text-align: center;
-	margin: auto;
-	opacity: 0.6;
-	margin-top: 10px;
-}
-
-
-.pic{
-	height: 272px;
-}
-
-
-.pic1{
-	text-align: center;
-	margin-top: 10px;
-}
-
-
-.pic2{
-	text-decoration: none;
-	color: #000;
-	font-family: 'Arial';
-	font-size: 25px;
 }
 
 
@@ -349,5 +311,25 @@ label{
 
 	.wrapper3{
 		display: none;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 1450px){
+	.wrap3nav2ulliappl{
+		display: flex;
+		order: 3;
+	}
+
+
+	.wrap3nav2ullitesl{
+		display: flex;
+		order: 2;
+	}
+
+
+	.wrap3nav2ulli3ukrp{
+		display: flex;
+		order: 1;
 	}
 }

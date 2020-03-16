@@ -103,7 +103,7 @@ opacity: 0.9;
 .photos{
 	flex-direction: column-reverse;
 	align-items: center;
-	margin-top: 400px;
+	margin-top: 329px;
 
 }
 
@@ -119,7 +119,43 @@ opacity: 0.9;
 }
 
 
+.p2{
+	margin-top: 10px;
+	text-align: center;
+	font-family: 'Arial';
+	font-size: 30px;
+}
 
+
+.p3line{
+	width: 99%;
+	background: #000;
+	height: 1px;
+	display: block;
+	text-align: center;
+	margin: auto;
+	opacity: 0.6;
+	margin-top: 10px;
+}
+
+
+.pic{
+	height: 272px;
+}
+
+
+.pic1{
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+.pic2{
+	text-decoration: none;
+	color: #000;
+	font-family: 'Arial';
+	font-size: 25px;
+}
 
 
 

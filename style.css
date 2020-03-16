@@ -1,0 +1,309 @@
+.wrapper{
+	width: 2.3127272 !important; 
+}
+
+
+.photos{
+	margin-top: 100px;
+	height: 279px;
+	display: flex;
+	justify-content: space-around;
+	z-index: 1;
+}
+
+
+.Apple{
+	background-image: url(..//photos/Apple.png);
+	height: 279px;
+	width: 462px;
+	float: left;
+	background-size: cover;
+	z-index: 2;
+
+}
+
+
+.Tesla{
+		background-image: url(..//photos/Tesla.png);
+	height: 279px;
+	width: 462px;
+	float: left;
+		background-size: cover;
+		z-index: 2;
+
+}
+
+
+.Ukrposhta{
+	background-image: url(..//photos/Ukrposhta.png);
+	height: 279px;
+	width: 462px;
+	float: left;
+		background-size: cover;
+		z-index: 2;
+}
+
+
+.Apple2{
+	height: 279px;
+	width: 462px;
+background: rgb(61,58,180);
+background: linear-gradient(25deg, rgba(61,58,180,1) 0%, rgba(255,0,0,1) 50%, rgba(69,239,252,1) 100%);
+opacity: 0.9;
+	z-index: 3;
+	transition: 1s;
+	float: left;
+}
+
+
+.Tesla2{
+	height: 279px;
+	width: 462px;
+background: rgb(61,58,180);
+background: linear-gradient(0deg, rgba(61,58,180,1) 0%, rgba(255,0,0,1) 50%, rgba(69,239,252,1) 100%);
+opacity: 0.9;
+	z-index: 3;
+	transition: 1s;
+	float: left;
+}
+
+
+.Ukrposhta2{
+	height: 279px;
+	width: 462px;
+background: rgb(61,58,180);
+background: linear-gradient(-25deg, rgba(61,58,180,1) 0%, rgba(255,0,0,1) 50%, rgba(69,239,252,1) 100%);
+opacity: 0.9;
+	z-index: 3;
+	transition: 1s;
+	float: left;
+}
+
+
+.Apple2:hover{
+	opacity: 0;
+	z-index: 3;
+	transition: 1s;
+}
+
+.Tesla2:hover{
+	opacity: 0;
+	z-index: 3;
+	transition: 1s;
+}
+
+.Ukrposhta2:hover{
+	opacity: 0;
+	z-index: 3;
+	transition: 1s;
+}
+
+
+@media (min-width:0px) and (max-width: 1450px){
+.photos{
+	flex-direction: column-reverse;
+	align-items: center;
+	margin-top: 400px;
+
+}
+
+
+.Tesla{
+	margin-top: 40px;
+}
+
+
+.Apple{
+	margin-top: 40px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper2{
+    background-color: #000;
+    position: relative;
+    color: white;
+    text-align: center;
+    height: 40px;
+    font-family: 'Arial';
+    z-index: 5;
+    display: none;
+}
+
+
+#check-menu{
+    display: none;
+}
+
+
+label{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 3;
+    line-height: 40px;
+}
+
+
+.burger-line {
+    position: absolute;
+    top: 8px;
+    left: 25px;
+    width: 23px;
+    height: 1.4px;
+    background:#fff;
+    transition: .5s all; 
+}
+
+
+.second{
+    top: 12px;
+}
+
+
+.third{
+    top: 25px;
+}
+
+
+.main-menu{
+	display: block;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	transform: translateY(100%);
+	max-height: 0;
+	font-size: 0;
+	overflow: hidden;
+	transition: .4s all;
+}
+
+
+.a2{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	border-top: 1px solid rgba(255, 255, 255, .3);
+	background: #000;
+	text-transform: uppercase;
+}
+
+
+.a2:hover{
+	background: rgba(0, 0, 0, .9);
+}
+
+
+#check-menu:checked ~ .main-menu{
+	max-height: 500px;
+	font-size: 16px;
+}
+
+
+
+#check-menu:checked ~ .second{
+	top: 18px;
+}
+
+
+#check-menu:checked ~ .third{
+	top: 18px;
+}
+
+
+#check-menu:checked ~ .second{
+	transform: rotate(45deg)
+
+}
+
+
+#check-menu:checked ~ .third{
+	transform: rotate(-45deg)
+
+}
+
+
+#check-menu:checked:hover ~ .second{
+	background: red;
+}
+
+
+#check-menu:checked:hover ~ .third{
+	background: red;
+}
+
+
+#check-menu:checked ~ .second{
+	width: 23px;
+	
+}
+
+
+#check-menu:checked ~ .third{
+	width: 23px;
+
+}
+
+
+.navigation2 ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navigation2 li{
+  float: left;
+}
+
+.navigation2 ul li a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-family: 'Arial';
+  text-transform: uppercase;
+}
+
+
+.navigation2 ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #000;
+	height: 40px;
+	width: 100%;
+}
+
+
+@media (min-width:0px) and (max-width: 768px){
+	.wrapper2{
+		display: block;
+	}
+
+
+	.wrapper3{
+		display: none;
+	}
+}

@@ -13,7 +13,7 @@
 
 
 .Apple{
-	background-image: url(..//photos/Apple.png);
+	background-image: url(../photos/Apple.png);
 	height: 279px;
 	width: 462px;
 	float: left;
